@@ -18,12 +18,65 @@
 	01 Color ----------------------------------------------------------------------------------------
 	---------------------------------------------------------------------------------------------------------- */
 
+html{
+  background-color: hsla(145, 35%, 89%, 0.9);
+  padding: 5%;
+}
+
+body{ 
+  background-color:hsla(190, 51%, 65%, 0.5) ;
+  color: hsla180, 100%, 100%, 0.9);
+}
+
+header h1{
+  background-color: hsla(0, 100%, 63%, 0.9);
+}
+
+div.preamble, div.requirements, div.benefits{
+  color: hsla(180, 0%, 25%, 0.9);
+  background-color: hsla(0, 100%, 100%, 0.9);
+
+}
+
+footer{
+
+}
+
+div.participation{
+
+}
+
+aside.sidebar{
+  background-color: hsla(61, 86%, 75%, 0.9);
+}
 
 
 
 
 /** 02 Typography -- Font  **/
 
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+p{
+  font-size: 1.25em;
+}
+
+h3{
+  font-size: 1.25em; font-weight: 200; letter-spacing: 1px;
+  line-height: 1em; padding: 1.25em 0 0.25em 0;
+}
+
+
+div.summary{
+  font-family: 'Grandstander', cursive;
+  text-transform: uppercase;
+}
+
+a{
+  text-decoration: none;
+}
 
 
 /** 03 Position, Size, layout **/
