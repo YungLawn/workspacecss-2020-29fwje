@@ -80,7 +80,93 @@ a{
 
 
 /** 03 Position, Size, layout **/
+div,
+article,
+section,
+header,
+footer,
+nav,
+figure,
+li{
+  position: relative;
+}
 
+aside.sidebar{
+  position: absolute;
+  top: 3%;
+  right:0;
+  width: 27%;
+}
+
+section.intro{
+  width: 60.7%;
+  padding: 5%;
+}
+
+section.intro div.preamble{
+  margin-left: -30%;
+  padding: 5% 5% 5% 30%;
+}
+
+div.page-wrapper{
+  padding: 5%;
+  z-index: 2;
+}
+
+div.extra1{
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 30%;
+  /*bottom:0*/
+  height: 600px;
+  background-color: hsla(227, 15%, 24%, 0.5);
+  z-index:1;
+}
+
+div.explanation{
+  float: left;
+  width: 40%;
+  padding: 5%;
+}
+
+div.partiicaption{
+  margin-left: 50%;
+  width: 40%;
+  padding: 5%;
+}
+
+div.benefits{
+  float: left;
+  width: 30%;
+  padding: 5%;
+}
+
+div.requirements{
+  margin-left: 40%;
+  width: 50%;
+  padding: 5%;
+}
+
+h2{
+  border: 3px dashed hsla(180, 0%, 25%, 0.9);
+}
+
+a{
+  border-bottom: 1px insert black; 
+}
+
+footer{
+  clear: both;
+  color: #fff;
+  padding: 1em 5%;
+  width: 50%;
+  margin: 10em auto;
+}
+
+div.summary{
+  visibility: hidden;
+}
 
 /** 04  Other decoration -- background Links **/ 
 
