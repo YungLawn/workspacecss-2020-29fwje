@@ -170,8 +170,37 @@ div.summary{
 
 /** 04  Other decoration -- background Links **/ 
 
+h3{
+  text-shadow: 0.3em 0.3em 0.1em bisque;
+  border: black solid 1px;
+  border-radius: 10px 20px 30px 30px;
+  box-shadow: -10px -20px 10px blue;
+  transition: ease-in-out 3s , transform 3s; /*need to be in main element */
+}
 
+h3:hover{
+  transform: translate(10px,10px)
+}
 
+h3-p{
+  opacity: 1;
+  transition: ease-in-out 3s, all 3s;
+}
+h3:active -p{
+  opacity: 0;
+  transform: scale(0.2);
+  visibility: hidden;
+}
+
+@keyframes movecolor{
+  from {background-image: linear-gradient(yellow,green,white);}
+  30% {background-image: linear-gradient(green,white,yellow);}
+  60% {background-image: linear-gradient(white, yellow, green);}
+}
+h2{
+  background-image: linear-gradient(yellow,green,white);
+  animation: 4s infinite running movecolor;
+}
 /**	05	Media  **/
 header>h1{
   background-image: url(../img/zengarden.gif);
